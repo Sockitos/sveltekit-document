@@ -4,7 +4,7 @@ import { parse as parseMarkup } from 'svelte-parse-markup'
 
 export const IMPORT_ACTION = `import __skaDocumentElement from '${url.fileURLToPath(
 	new URL('./action.js', import.meta.url)
-)}';`
+).replace(/\\/g, '/')}'`
 
 /**
  * @return {import('svelte/types/compiler/preprocess').PreprocessorGroup}

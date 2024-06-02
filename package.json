@@ -54,6 +54,6 @@
 	"dependencies": {
 		"cheerio": "^1.0.0-rc.12",
 		"magic-string": "^0.29.0",
-		"svelte-parse-markup": "^0.1.2"
+		"svelte-parse-markup": "git://github.com/Sockitos/svelte-parse-markup.git"
 	}
 }
